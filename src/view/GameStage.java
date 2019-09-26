@@ -202,7 +202,6 @@ public class GameStage extends Stage {
         transition.setToY(endPos.y);
 
         // set monster to move forever
-        transition.setCycleCount(Animation.INDEFINITE);
         transition.setAutoReverse(true);
 
         // apply the Node of monster image to the TranslateTransition
